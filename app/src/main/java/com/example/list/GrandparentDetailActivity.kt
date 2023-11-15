@@ -10,7 +10,7 @@ class GrandparentDetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_grandparent_detail)
 
-        // Получаем данные о выбранной бабушке из Intent
+        // Получаем данные о выбранной бабушке из Intentssss
         val grandparent = intent.getSerializableExtra("grandparent") as Grandparent
 
         // Отображаем подробное описание бабушки на экране
