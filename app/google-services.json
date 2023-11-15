@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "348489547795",
+    "firebase_url": "https://link-7fe86-default-rtdb.firebaseio.com",
+    "project_id": "link-7fe86",
+    "storage_bucket": "link-7fe86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348489547795:android:e9fdfa0f341db34d993fe6",
+        "android_client_info": {
+          "package_name": "com.example.list"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHMyuSjSxrryKpsEoLL5BQSrmdM2rRcvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

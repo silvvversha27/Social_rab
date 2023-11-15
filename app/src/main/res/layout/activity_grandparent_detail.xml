@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"> <!-- Добавлен фон -->
+
+    <TextView
+        android:id="@+id/textViewNameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+    android:textStyle="bold"
+    android:text="Имя бабушки или дедушки"
+    android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/textViewAddressDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+    android:text="Адрес"
+    android:layout_marginBottom="16dp"
+    android:textColor="@android:color/darker_gray" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" /> <!-- Горизонтальная линия для разделения -->
+
+    <TextView
+        android:id="@+id/textViewDescriptionDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+    android:text="Описание бабушки"
+    android:layout_marginTop="16dp"
+    android:textColor="@android:color/black" />
+
+</LinearLayout>
